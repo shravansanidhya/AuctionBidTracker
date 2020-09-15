@@ -25,7 +25,7 @@ public class BidTrackerServiceImplTest {
 	private static final User user3 = new User(203, "Mohan");
 
 	private static final Item item1 = new Item(101, "bazaz");
-	private static final Item item2 = new Item(102, "Apache");
+	private final Item item2 = new Item(102, "Apache");
 	private static final Item item3 = new Item(103, "Pulsor");
 	private static final Item item4 = new Item(104, "Maruti");
 
